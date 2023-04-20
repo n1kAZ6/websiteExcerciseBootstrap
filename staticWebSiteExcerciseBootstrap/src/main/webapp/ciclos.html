@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltairFP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar p-2 navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="logo" width="200" height="74" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ciclos.html">Ciclos Formativos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="solicitud.html">Solicitud</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Calendario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Classroom</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                FCT Practicas
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Empresa</a></li>
+                                <li><a class="dropdown-item" href="#">Encargado</a></li>
+                                <li><a class="dropdown-item" href="#">Dirección</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark btn-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="container px-4 py-5" id="icon-grid">
+                <h2 class="pb-2">Nuestros Ciclos Formativos</h2>
+                <hr class="border border-primary border-3 opacity-75">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+                    style="text-align: center;">
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+                            <path
+                                d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434l.071-.286zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5zm0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78h4.723zM5.048 3.967c-.03.021-.058.043-.087.065l.087-.065zm-.431.355A4.984 4.984 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8 4.617 4.322zm.344 7.646.087.065-.087-.065z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Medio en Electricidad del Automovil
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+                            <path
+                                d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Medio en Microinformática y Redes
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-building" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                            <path
+                                d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Medio en Gestión Administrativa
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                            <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z" />
+                            <path
+                                d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">Técnico Superior en Automoción</h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-cash-coin" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                            <path
+                                d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+                            <path
+                                d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+                            <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Superior en Administración y Finanzas
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-filetype-js" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.186 15.29a1.176 1.176 0 0 1-.111-.449h.765a.578.578 0 0 0 .255.384c.07.049.153.087.249.114.095.028.202.041.319.041.164 0 .302-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.255-.144-.462-.193l-.619-.143a1.72 1.72 0 0 1-.539-.214 1.001 1.001 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.528-.422.224-.1.483-.149.776-.149.305 0 .564.05.78.152.216.102.383.239.5.41.12.17.186.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.247-.181.923.923 0 0 0-.369-.068c-.217 0-.388.05-.513.152a.472.472 0 0 0-.184.384c0 .121.048.22.143.3a.97.97 0 0 0 .405.175l.62.143c.218.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Zm-3.104-.033A1.32 1.32 0 0 1 0 14.791h.765a.576.576 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466v-2.745h.79v2.725c0 .44-.119.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.569-.094 1.145 1.145 0 0 1-.407-.266 1.14 1.14 0 0 1-.243-.39Z">
+                            </path>
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Superior en Desarrollo de Aplicaciones Web
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-robot" viewBox="0 0 16 16">
+                            <path
+                                d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5ZM3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.58 26.58 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.933.933 0 0 1-.765.935c-.845.147-2.34.346-4.235.346-1.895 0-3.39-.2-4.235-.346A.933.933 0 0 1 3 9.219V8.062Zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a24.767 24.767 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25.286 25.286 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135Z" />
+                            <path
+                                d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Superior en Electricidad y Automatismos
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" fill="currentColor"
+                            class="bi bi-activity" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
+                        </svg>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-0">
+                                Técnico Superior en Actividades Fisico-Deportivas y Animación
+                            </h4>
+                            <p>
+                                Paragraph of text beneath the heading to explain the heading.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+            <h4>Tutores por módulo Curso 22/23</h4>
+            <hr class="border border-primary border-3 opacity-75">
+            </p>
+            <div class="col">
+                <table class="table table-bordered table-striped border-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="table-primary"></th>
+                            <th class="table-primary">Módulo</th>
+                            <th scope="col" class="table-primary">Nombre</th>
+                            <th scope="col" class="table-primary">Apellido</th>
+                            <th scope="col" class="table-primary">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Técnico Medio en Electricidad del Automovil</td>
+                            <td>D. Juan</td>
+                            <td>Torres</td>
+                            <td>DJT@mdo.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Técnico Medio en Microinformática y Redes</td>
+                            <td>D. Pablo</td>
+                            <td>Montes</td>
+                            <td>DPM@mdo.es</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Técnico Medio en Gestión Administrativa</td>
+                            <td>D. Iván</td>
+                            <td>Prieto</td>
+                            <td>DIP@mdo.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Técnico Superior en Automoción</td>
+                            <td>D. Alberto</td>
+                            <td>Álvarez</td>
+                            <td>DAA@yahoo.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Técnico Superior en Administración y Finanzas</td>
+                            <td colspan="2">D. Sergio</td>
+                            <td>DSE@hotmail.es</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Técnico Superior en Desarrollo de Aplicaciones Web</td>
+                            <td colspan="2">D. Jose Mª Carazo</td>
+                            <td>DJMC@gmail.es</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Técnico Superior en Electricidad y Automatismos</td>
+                            <td colspan="2">D. Ignacio</td>
+                            <td>DIB@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Técnico Superior en Actividades Fisico-Deportivas y Animación</td>
+                            <td colspan="2">D. Manuel</td>
+                            <td>DMA@outlook.com</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md col-lg-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente! Molestiae placeat, nostrum
+                    ex minima repudiandae soluta ducimus facere delectus dignissimos porro dolorem fugiat debitis ipsa
+                    mollitia eum aperiam quod! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, minus
+                    iusto. Assumenda quasi, vel quis ut minus non, expedita eius architecto aperiam vitae sint dolor,
+                    quam voluptatibus! Voluptate, hic facilis!</p>
+            </div>
+            <div class="col-12 col-md col-lg-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente! Molestiae placeat, nostrum
+                    ex minima repudiandae soluta ducimus facere delectus dignissimos porro dolorem fugiat debitis ipsa
+                    mollitia eum aperiam quod! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, minus
+                    iusto. Assumenda quasi, vel quis ut minus non, expedita eius architecto aperiam vitae sint dolor,
+                    quam voluptatibus! Voluptate, hic facilis!</p>
+            </div>
+            <div class="col-12 col-md col-lg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente! Molestiae placeat, nostrum
+                    ex minima repudiandae soluta ducimus facere delectus dignissimos porro dolorem fugiat debitis ipsa
+                    mollitia eum aperiam quod! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, minus
+                    iusto. Assumenda quasi, vel quis ut minus non, expedita eius architecto aperiam vitae sint dolor,
+                    quam voluptatibus! Voluptate, hic facilis!</p>
+            </div>
+            <div class="col-12 col-md col-lg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sapiente! Molestiae placeat, nostrum
+                    ex minima repudiandae soluta ducimus facere delectus dignissimos porro dolorem fugiat debitis ipsa
+                    mollitia eum aperiam quod! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, minus
+                    iusto. Assumenda quasi, vel quis ut minus non, expedita eius architecto aperiam vitae sint dolor,
+                    quam voluptatibus! Voluptate, hic facilis!</p>
+            </div>
+        </div>
+        <div class="row">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-4 col-sm">
+                        <h5>Departamentos</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Automoción</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Administración</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Deportes</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Electricidad</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Informática</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-4 col-sm offset-0.5">
+                        <h5>Enlaces</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Altair Web</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CRM</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Classroom</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Deportes</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-4 col-sm">
+                        <h5>Información</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Calendario</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Guias inicio de
+                                    curso</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Solicitudes de
+                                    ingreso</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Información</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Equipo</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-12 col-sm offset-0.5">
+                        <form>
+                            <h5>Contacto</h5>
+                            <p>Introduce tu correo electronico y nos pondremos en contacto contigo.</p>
+                            <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Dirección de correo electronico</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="d-flex justify-content-between py-4 my-4 border-top">
+                    <p>© 2022 Altair FP.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                    height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
